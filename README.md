@@ -54,21 +54,20 @@ These values can be used as features for predicting perceived duration.
 
 ## Usage
 
-### 1. [Video to Change Timeline Notebook (Colab)](https://colab.research.google.com/drive/YOUR_NOTEBOOK_ID_HERE)
+### 1. [Video_to_PerceptualChange_Timeline](https://colab.research.google.com/drive/1Wu3Tn9061w8A8n8AyEq5c5tNM8zodTiF?usp=sharing.ipynb)
 
 1. **Run Notebook 1**:
    - Extract frames.
    - Generate VGG-19 feature maps.
    - Calculate frame-to-frame feature differences.
 
-### 2. [Perceptual Accumulators Notebook (Colab)](https://colab.research.google.com/drive/YOUR_NOTEBOOK_ID_HERE)
+### 2. [Perceptual_Change_Accumulators](https://colab.research.google.com/drive/1m7vVhVd2EB-kRTPlQl_iK0oyvo4UdLRk?usp=sharing)
 
 2. **Run Notebook 2**:
    - Load saved difference timelines.
-   - Apply static and dynamic thresholding.
+   - Apply static and/or dynamic thresholding.
    - Compute accumulated perceptual changes.
    - Use these as inputs for modeling perceived time.
-
 
 
 ## Notes
